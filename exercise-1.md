@@ -17,3 +17,27 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+GET /stock = retrieves stock list
+GET /stock/:id = retrieves specific stock item (i.e. milk, coffee beans)
+POST /stock = adds new item to stock list
+PUT /stock/:id = updates stock by id
+DELETE /stock/:id = removes stock by id
+
+GET /sales = retrieves sales data
+GET sales/:id = retrieves sale data by id
+POST /sales = adds a new sale
+PUT /sales/:id = updates sale by id (ie. if wrong item was punched)
+DELETE sales/:id = removes sale by id
+
+GET /customer = retrieves data of all customers
+GET /customer/:id = retrieves data of customer by id
+POST /customer = adds new customer
+PUT /customer/:id = changes customer contact info
+DELETE /customer/:id = removes customer by id
+
+GET /seating = retrieves seating plan
+GET /seat/:id = retrieves seat by id
+POST /seat = adds new seat
+PUT /seat/:id = updates specific seat (ie. if someone is sitting)
+DELETE /seat/:id = removes seat by id
